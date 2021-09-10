@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #292b2f;
+}
+
+h1 {
+  font-family: 'Pacifico', san-serif;
+  font-size: 5.625rem;
+  /* color: #ae302b; */
+  color: #F28F3B;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /* color: #db9278; */
+  color: #FFD5C2;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #db9278;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #adb5bd;
+}
+hr {
+  border: dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+p {
+  line-height: 2;
+}
+a {
+  color: #FA7F72;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: white;
+}
+.top-container {
+  position: relative;
+  padding-top: 10px;
+  /* background-color: #240c0c; */
+  background-color: #C8553D;
+  min-height: 500px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight:200;
+}
+
+.logo {
+position: absolute;
+top: 1%;
+margin-bottom: 20px;
+}
+.card {
+  margin: 2rem auto;
+  width: 30rem;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.up {
+  color: #EAF6F6;
+}
+.skills {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #588B8B;
+  min-height: 800px;
+}
+
+.bottom-container {
+  /* background-color: #db9278; */
+  background-color: #588B8B;
+  padding: 50px 0 20px;
+  margin-top: 75px;
+  color: white;
+
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.self {
+  width: 15%;
+}
+.profile {
+  margin: 100px 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.code-img{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.hike-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  min-height: 600px;
+}
+.contact-para {
+  margin-bottom: 50px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.linkedin {
+  text-decoration: none;
+  color: #ae302b;
+}
+.linkedin:hover {
+  color: #db9278;
+}
+.contact-btn {
+   background: #ae302b;
+   background-image: -webkit-linear-gradient(top, #ae302b, #db9278);
+   background-image: -moz-linear-gradient(top, #ae302b, #db9278);
+   background-image: -ms-linear-gradient(top, #ae302b, #db9278);
+   background-image: -o-linear-gradient(top, #ae302b, #db9278);
+   background-image: -webkit-gradient(to bottom, #ae302b, #db9278);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat';
+   font-size: 18px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #ae302b 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-btn:hover {
+   border: solid #ae302b 1px;
+   background: #db9278;
+   background-image: -webkit-linear-gradient(top, #db9278, #F5A25D);
+   background-image: -moz-linear-gradient(top, #db9278, #F5A25D);
+   background-image: -ms-linear-gradient(top, #db9278, #F5A25D);
+   background-image: -o-linear-gradient(top, #db9278, #F5A25D);
+   background-image: -webkit-gradient(to bottom, #db9278, #F5A25D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: #ae302b;
+}
+
+.copyright {
+  font-size: .75rem;
+  padding: 20px 0;
+}
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+.footer-link:hover {
+  color: #FA7F72;
+}
+
+@media (max-width: 991px){
+.logo {
+  display: none;
+}
+}
