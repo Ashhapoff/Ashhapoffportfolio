@@ -218,6 +218,7 @@ margin-bottom: 20px;
 .linkedin {
   text-decoration: none;
   color: #ae302b;
+  margin: 0;
 }
 .linkedin:hover {
   color: #db9278;
